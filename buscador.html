@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/almacen.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Buscador</title>
+    <style>
+        body{
+            background: url('img/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 mx-auto" style="margin-top: 200px;">
+                    <div class="card" style="background-color: white; border-color: black; border-radius: 5%;">
+                       <div class="card-body text-center"> 
+                          <div class="mx-auto" style=" width: 152px; height: 149px; border-radius: 50%; margin-top: -100px;">
+                             <img src="img/Plata.svg" style="border-radius: 50%; width: 104%; background-color: black;border: solid 1px gray; ">
+                           </div>
+                           <p class="font" style="font-size: 60px;">Plateria Paredes</p>
+                           <form action="inventario.html" method="POST" class="my-3">
+                             <div class="form-group mb-3">
+                                <button class="but" style="width: 230px;">
+                                    <p style="font-size: 23px;"> Buscar en inventario </p>
+                                </button>
+                             </div>
+                         </form>
+                         <div class="form-group mb-3">
+                           <form action="formulario.html">
+                             <button class="but" style="width: 230px;">
+                               <p style="font-size: 23px;"> Agregar Articulo </p>
+                           </button>
+                         </form>
+                         </div>
+                         <div class="form-group mb-3">
+                            <form action="pdf.php">
+                              <button class="but" style="width: 230px;">
+                                <p style="font-size: 20px;"> Generar Ultimo Reporte </p>
+                            </button>
+                          </form>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>

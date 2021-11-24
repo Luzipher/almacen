@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="css/almacen.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Buscador</title>
+    <style>
+        body{
+            background: url('img/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            -webkit-background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <div class="container" style="margin-top: 200px;">
+                        <div class="row">
+                            <div class="col-md-6 mx-auto mt-5">
+                                <img src="img/Plata.svg" style="width: 200px; border-radius: 50%;  background-color: black;border: solid 1px gray;" class="animate__animated animate__fadeInRight">
+                                <form action="validacion1.php" method="POST" class="my-3">
+                                    <div class="input-group mb-3 animate__animated animate__fadeInLeft">
+                                        <input type="text" name="buscador" class="form-control" placeholder="..." onKeypress="validacion()">
+                                        <button class="btn btn-success" style="background-color: black; border: solid 1px gray;">Buscar</button>
+                                      </div>
+                                </form>
+                                <h1 style="font-size: 60px;">Busqueda de Articulos </h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
