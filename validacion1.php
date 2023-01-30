@@ -85,7 +85,7 @@ $buscador = isset($_POST['buscador']) ? $_POST['buscador'] : '';
                        <td class="align-middle"> '.$piezas.'</td>
                        <td class="align-middle"> '.$fecha.'</td>
                        <td class="align-middle">
-                          <img class="rounded" src="ImgA/'.$id.'.jpg" style="width: 100px;">
+                        <img class="rounded" src="imgX/'.$id.'.jpg" style="width: 100px;">
                        </td>
                       </tr>';
                    }  

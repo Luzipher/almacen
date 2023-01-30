@@ -1,7 +1,7 @@
 <html>
     <link rel="stylesheet" href="css/almacen.css"> 
     <div class="mx-auto" style=" width: 200px; height: 149px;  margin-top: -40px; margin-left: 120px;">
-        <img src="img/repo.png" style="height: 145px; width: 500px;"> 
+        <img src="img/repog.png" style="height: 145px; width: 500px;"> 
     </div>
     <?php  
     while($resul = $cs -> fetchArray()){
@@ -37,7 +37,9 @@
                          <th>
                              Fecha
                          </th>
-                         
+                         <th>
+                              Foto
+                         </th>     
                     </tr>
                 </thead>
                 <tbody>
@@ -48,7 +50,9 @@
                         <td class="align-middle"> $ '.$precio.'</td>
                         <td class="align-middle"> '.$piezas.'</td>
                         <td class="align-middle"> '.$fecha.'</td>
-                        
+                        <td class="align-middle"> 
+                          <img class="rounded" src="imgX/'.$id.'.jpg" style="width: 60px;">
+                        </td>
                     </tr>
                 </tbody>
             </table> 
